@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: white;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+html,
+body {
+  /* background-color: white; */
+  background-color: #f8f9fa;
+  /* background-color: black; */
+  overflow-x: hidden;
+}
+.navbar {
+  box-shadow: 1px 1px 10px gray;
+}
+
+.navbar-brand {
+  font-family: "Pacifico", cursive;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.active {
+  font-weight: bold;
+  font-family: "Pacifico", cursive;
+  /* text-shadow: 1px 1px 20px white; */
+}
+
+.nav-link {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: black;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: white;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+  html,
+  body {
+    /* background-color: white; */
+    background-color: #f8f9fa;
+    /* background-color: black; */
+    overflow-x: hidden;
+  }
+  .navbar {
+    box-shadow: 1px 1px 10px gray;
+  }
+
+  .navbar-brand {
+    font-family: "Pacifico", cursive;
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+  .active {
+    font-weight: bold;
+    font-family: "Pacifico", cursive;
+    /* text-shadow: 1px 1px 20px white; */
+  }
+
+  .nav-link {
+    font-family: "Pacifico", cursive;
+    cursor: pointer;
+  }
+  .nav-link:hover {
+    text-shadow: 1px 1px 20px black;
+  }
+
+  #search {
+    background-color: black !important;
+    color: white;
+    background-color: white;
+  }
+
+  #drop {
+    font-family: "Pacifico", cursive;
+  }
+  #drop:hover {
+    border: none;
+    text-shadow: 1px 1px 20px black;
+  }
+
+  .dropdown-item {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  /* END */
+
+  /* cards */
+  .vegmenu {
+    margin-top: 6%;
+  }
+
+  #veggievibe {
+    text-align: center;
+    font-family: "Pacifico", cursive;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .card {
+    /* border: 2px solid black; */
+    border: none;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    opacity: 0;
+  }
+
+  .card:hover {
+    border: none;
+  }
+
+  .img {
+    /* border: 10px solid white; */
+    padding: 10px 14.5px;
+    border-radius: 15px;
+    transition: all 1s ease-in-out;
+  }
+
+  .h1 {
+    margin-top: 3%;
+  }
+
+  .card:hover .img {
+    transform: scale(0.8);
+    transition: transform 0.3s ease;
+    border: none;
+    padding: 15px 23.5px;
+    /* border-radius: 10%; */
+  }
+
+  .card .img {
+    transition: transform 3s ease;
+  }
+
+  .card.is-visible .img {
+    transform: scale(1.1);
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+
+  .card.is-visible {
+    opacity: 1;
+  }
+
+  .card-title {
+    color: black;
+    font-weight: bold;
+    font-family: "Pacifico", cursive;
+  }
+
+  .card-text {
+    color: black !important;
+    font-weight: 600;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+
+  /* footer */
+
+  .nav-item {
+    color: rgb(17, 3, 3) !important;
+  }
+
+  #subs {
+    background-color: black;
+    color: white;
+    font-family: "Pacifico", cursive;
+    border: 1px solid black;
+  }
+
+  #subs:hover {
+    background-color: white;
+    color: black;
+  }
+
+  font-family: "Pacifico", cursive;
+  cursor: pointer;
+}
+.nav-link:hover {
+  text-shadow: 1px 1px 20px black;
+}
+
+#search {
+  background-color: black !important;
+  color: white;
+  background-color: white;
+}
+
+#drop {
+  font-family: "Pacifico", cursive;
+}
+#drop:hover {
+  border: none;
+  text-shadow: 1px 1px 20px black;
+}
+
+.dropdown-item {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* END */

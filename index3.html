@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style1.css" />
+  <link rel="stylesheet" href="cart.css">
+  <title>SavorSpectrum</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">SavorSpectrum</a>
+      <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <!-- <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li> -->
+          <li class="nav-item">
+            <div class="dropdown">
+              <a class="btn btn-transparent dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false" id="drop">
+                Menu
+              </a>
+
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="index1.html">Veg</a></li>
+                <li><a class="dropdown-item" href="index2.html">Non-Veg</a></li>
+                <li><a class="dropdown-item" href="index3.html">Fast food</a></li>
+                <li><a class="dropdown-item" href="index4.html">Desert&Sweets</a></li>
+                <li><a class="dropdown-item" href="index5.html">Drinks</a></li>
+                <!-- <li><a class="dropdown-item" href="index6.html">Offers</a></li> -->
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index6.html">Hotel&Rooms</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index7.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index8.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- end -->
+
+
+
+  <!-- start -->
+  <div class="vegmenu">
+    <h1 id="veggievibe">Our Special FastFood</h1>
+    <div class="container-xxl">
+      <div class="row row-cols-1 row-cols-md-4 g-4" style="margin-top: 2%">
+        <div class="col">
+          <div class="card">
+            <img class="img"
+              src="https://img.freepik.com/premium-photo/delicious-fresh-burger-with-old-loft-background-fresh-american-kitchen_524291-2395.jpg?size=626&ext=jpg&ga=GA1.1.1567157820.1706799302&semt=ais"
+              class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title productname">Sizzling Bacon Cheeseburger</h5>
+              <p class="card-text">
+                Pasta skillet will your mouth water as it simmers on stove. </p>
+              <p class="card-text price">₹179</p>
+              <button type="button" class="btn btn-dark addtocart ">Order now</button>
+              <button type="button" class="btn btn-dark addtocart">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img class="img"
+              src="https://img.freepik.com/premium-photo/plate-fried-chicken-with-mashed-potatoes-bowl-mashed-potatoes_865967-22967.jpg?size=626&ext=jpg&ga=GA1.1.1567157820.1706799302&semt=ais"
+              class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title productname">Buttermilk Ranch Chicken </h5>
+              <p class="card-text">
+                Flavorful chicken dish that is marinated in a tangy buttermilk. </p>
+              <p class="card-text price">₹245</p>
+              <button type="button" class="btn btn-dark addtocart">Order now</button>
+              <button type="button" class="btn btn-dark addtocart">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img class="img"
+              src="https://img.freepik.com/free-photo/smoked-sausages-tied-with-rope-orange-plate_114579-68411.jpg?size=626&ext=jpg&ga=GA1.1.1567157820.1706799302&semt=ais"
+              class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title productname">Spicy Jalapeno Sausage Dog</h5>
+              <p class="card-text">
+                Preheat a non-stick or lightly sprayed skillet medium heat. </p>
+              <p class="card-text price">₹230</p>
+              <button type="button" class="btn btn-dark addtocart">Order now</button>
+              <button type="button" class="btn btn-dark addtocart">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img class="img"
+              src="https://img.freepik.com/free-photo/grilled-buffalo-wings-white-plate_74190-2543.jpg?size=626&ext=jpg&ga=GA1.1.1567157820.1706799302&semt=ais"
+              class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title productname">Honey Butter Chicken Bites</h5>
+              <p class="card-text">
+                Butter chicken recipe uses pantry staples flavorful chicken. </p>
+              <p class="card-text price">₹250</p>
+              <button type="button" class="btn btn-dark addtocart">Order now</button>
+              <button type="button" class="btn btn-dark addtocart">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end -->
+
+
+    <!-- start -->
+    <h1 id="veggievibe" class="h1">Prime Signature Burger Bliss</h1>
+    <div class="container-xxl">
+      <div class="row row-cols-1 row-cols-md-4 g-4" style="margin-top: 2%">
+        <div class="col">
+          <div class="card">
+            <img class="img"
+              src="https://www.shutterstock.com/image-photo/burger-salad-cheedar-cheese-bacon-600nw-2116536983.jpg"
+              class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title productname">Gourmet Angus Burger Stack</h5>
+              <p class="card-text">
+                Illustrations available royalty-free.stack of different burgers
+              </p>
+              <p class="card-text price">₹189</p>
+              <button type="button" class="btn btn-dark addtocart">Order now</button>
+              <button type="button" class="btn btn-dark addtocart">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img class="img"
+              src="https://img.freepik.com/premium-photo/taste-magic-delicious-food-experiences-ai-generated-best-food-photo_1070043-66133.jpg?size=626&ext=jpg&ga=GA1.1.1567157820.1706799302&semt=ais"
+              class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title productname">Prime Beef Burger Bliss</h5>
+              <p class="card-text">
+                Burgers are a mix of Boneless Short Ribs and Brisket. </p>
+              <p class="card-text price">₹165</p>
+              <button type="button" class="btn btn-dark addtocart">Order now</button>
+              <button type="button" class="btn btn-dark addtocart">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img class="img"
+              src="https://img.freepik.com/premium-photo/double-cheeseburger-with-melted-cheese-blue-cheese_237253-71.jpg?size=626&ext=jpg&ga=GA1.1.1567157820.1706799302&semt=ais"
+              class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title productname">Sizzling Bacon Cheeseburger</h5>
+              <p class="card-text">
+                Cheeseburger pasta skillet will your mouth water as it simmers. </p>
+              <p class="card-text price">₹190</p>
+              <button type="button" class="btn btn-dark addtocart">Order now</button>
+              <button type="button" class="btn btn-dark addtocart">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img class="img"
+              src="https://img.freepik.com/free-photo/front-view-tasty-meat-burger-with-cheese-salad-dark-background_140725-89597.jpg?size=626&ext=jpg&ga=GA1.1.1567157820.1706799302&semt=ais"
+              class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title productname">Veg Burger</h5>
+              <p class="card-text">
+                Veggie burger you will love! Incredibly delicious crisp patties. </p>
+              <p class="card-text price">₹95</p>
+              <button type="button" class="btn btn-dark addtocart">Order now</button>
+              <button type="button" class="btn btn-dark addtocart">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end -->
+
+
+
+
+    <!-- start -->
+    <h1 id="veggievibe" class="h1">Golden Crisp Winglets Supreme</h1>
+    <div class="container-xxl">
+      <div class="row row-cols-1 row-cols-md-4 g-4" style="margin-top: 2%">
+        <div class="col">
+          <div class="card">
+            <img class="img"
+              src="https://img.freepik.com/premium-photo/plate-buffalo-chicken-wings-black-background_87482-1797.jpg?size=626&ext=jpg&ga=GA1.1.1567157820.1706799302&semt=ais"
+              class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title productname">Golden Crispy Chicken Wings</h5>
+              <p class="card-text">
+                Chicken wings are crispy and crunchy with a golden color. </p>
+              <p class="card-text price">₹235</p>
+              <button type="button" class="btn btn-dark addtocart">Order now</button>
+              <button type="button" class="btn btn-dark addtocart">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img class="img"
+              src="https://img.freepik.com/free-photo/crispy-french-fries-with-ketchup-mayonnaise_1150-26588.jpg?size=626&ext=jpg&ga=GA1.1.1567157820.1706799302&semt=ais"
+              class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title productname">French fries with red sauce</h5>
+              <p class="card-text">
+                Sauce gives french fries a rich and savory flavor. </p>
+              <p class="card-text price">₹189</p>
+              <button type="button" class="btn btn-dark addtocart">Order now</button>
+              <button type="button" class="btn btn-dark addtocart">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img class="img"
+              src="https://img.freepik.com/premium-photo/bbq-chicken-tikka-boti-with-lime-dish-isolated-napkin-side-view-grey-background_689047-704.jpg?size=626&ext=jpg&ga=GA1.1.1567157820.1706799302&semt=ais"
+              class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Zesty Lemon Pepper Wings</h5>
+              <p class="card-text">
+                Crispiest baked chicken wings ever with a zesty Lemon.
+              </p>
+              <p class="card-text price productname">₹319</p>
+              <button type="button" class="btn btn-dark addtocart">Order now</button>
+              <button type="button" class="btn btn-dark addtocart">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img class="img"
+              src="https://img.freepik.com/free-photo/delicious-pizza-indoors_23-2150873982.jpg?size=626&ext=jpg&ga=GA1.1.1567157820.1706799302&semt=sph"
+              class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title productname"> Pizza and sauce spicy </h5>
+              <p class="card-text">
+                Herbs and chillies create magic on your taste buds!
+              </p>
+              <p class="card-text price">₹195</p>
+              <button type="button" class="btn btn-dark addtocart">Order now</button>
+              <button type="button" class="btn btn-dark addtocart">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- end -->
+
+
+
+
+
+    <!-- start -->
+    <h1 id="veggievibe" class="h1">Truffle-infused Golden Crisp Fries</h1>
+    <div class="container-xxl">
+      <div class="row row-cols-1 row-cols-md-4 g-4" style="margin-top: 2%">
+        <div class="col">
+          <div class="card">
+            <img class="img"
+              src="https://img.freepik.com/free-photo/tray-junk-food-fast-food-chicken-nuggets-french-fries_53876-31291.jpg?size=626&ext=jpg&ga=GA1.1.1567157820.1706799302&semt=ais"
+              class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title productname">Truffle-infused Crisp Fries</h5>
+              <p class="card-text">
+                Truffle professional crisps producers for three generations.
+              </p>
+              <p class="card-text price">₹170</p>
+              <button type="button" class="btn btn-dark addtocart">Order now</button>
+              <button type="button" class="btn btn-dark addtocart">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img class="img"
+              src="https://img.freepik.com/free-photo/appetizing-pasta-with-tomato-sauce-parmesan-plate-closeup_1220-6923.jpg?size=626&ext=jpg&ga=GA1.1.1567157820.1706799302&semt=ais"
+              class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title productname">Pasta with Tomato Sauce</h5>
+              <p class="card-text">
+                Heat store-bought or homemade tomato sauce in a saucepan. </p>
+              <p class="card-text price">₹165</p>
+              <button type="button" class="btn btn-dark addtocart">Order now</button>
+              <button type="button" class="btn btn-dark addtocart">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img class="img"
+              src="https://img.freepik.com/free-photo/sandwich-tandir-bread-iwith-white-cheese-tomato-lettuce-inside_114579-3007.jpg?size=626&ext=jpg&ga=GA1.1.1567157820.1706799302&semt=ais"
+              class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title productname">Sandwich with fries
+              </h5>
+              <p class="card-text">
+                Grill the sandwich until golden brown on both sides. </p>
+              <p class="card-text price ">₹185</p>
+              <button type="button" class="btn btn-dark addtocart">Order now</button>
+              <button type="button" class="btn btn-dark addtocart">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img class="img"
+              src="https://img.freepik.com/premium-photo/plate-with-grilled-sandwiches-cutlery-wooden-table_185193-41405.jpg?size=626&ext=jpg&ga=GA1.1.1567157820.1706799302&semt=ais"
+              class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title productname">Grilled Cheese Sandwich</h5>
+              <p class="card-text">
+                Slice cheese between two slices of bread, add butter to the pan.
+              </p>
+              <p class="card-text price">₹140</p>
+              <button type="button" class="btn btn-dark addtocart">Order now</button>
+              <button type="button" class="btn btn-dark addtocart">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end -->
+
+
+
+  <div class="cart-container container" style="background-color: black;">
+    <h2 style="color: rgb(255, 255, 255); font-weight: bold; font-family: Pacifico, cursive;">Cart</h2>
+    <table>
+      <thead>
+        <tr>
+          <th><strong style="color: white;">Product</strong></th>
+          <th><strong style="color: white;">Price</strong></th>
+        </tr>
+      </thead>
+      <tbody id="carttable" style="color: white;">
+      </tbody>
+    </table>
+    <hr>
+    <div style="color: white; margin-bottom: 10px;">
+      <label for="deliveryAddress" style="font-weight: bold;">Delivery Address:</label>
+      <input type="text" id="deliveryAddress" placeholder="Enter delivery address"
+        style="color: black; border-radius: 8px; border: none; padding: 5px;">
+    </div>
+    <div style="color: white; margin-bottom: 10px;">
+      <label for="paymentMethod" style="font-weight: bold;">Payment Method:</label>
+      <select id="paymentMethod" style="color: black; border-radius: 8px; border: none; padding: 5px;">
+        <option value="creditCard">Credit Card</option>
+        <option value="paypal">PayPal</option>
+        <option value="bankTransfer">Bank Transfer</option>
+        <option value="bankTransfer">Cash on delivery</option>
+
+      </select>
+    </div>
+    <table id="carttotals">
+      <tr>
+        <td><strong style="color: rgb(255, 255, 255);">Items</strong></td>
+        <td><strong style="color: rgb(255, 255, 255);">Total</strong></td>
+      </tr>
+      <tr>
+        <td style="color: white;">x <span id="itemsquantity" style="color: white;">0</span></td>
+        <td style="color: white;">₹<span id="total" style="color: white;">0</span></td>
+      </tr>
+    </table>
+
+    <div class="cart-buttons">
+      <button id="emptycart"
+        style="background-color: white;color: black;border-radius: 8px; border: none; font-weight: bold; font-family: Pacifico, cursive;">Empty
+        Cart</button>
+      <button id="checkout"
+        style="background-color: white;color: black; border-radius: 8px; border: none; font-weight: bold; font-family: Pacifico, cursive;">Checkout</button>
+    </div>
+  </div>
+
+
+  <hr>
+
+  <div class="container">
+    <footer class="py-5">
+      <div class="row">
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Explore</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-body-secondary">Home</a></li>
+            <li class="nav-item mb-2"><a href="index1.html" class="nav-link p-0 text-body-secondary">Menu</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Reservations</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Events</a></li>
+            <li class="nav-item mb-2"><a href="index8.html" class="nav-link p-0 text-body-secondary">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Discover</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Our Story</a></li>
+            <li class="nav-item mb-2"><a href="index7.html" class="nav-link p-0 text-body-secondary">Gallery</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Specials</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Reviews</a></li>
+          </ul>
+        </div>
+
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Visit</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="index8.html" class="nav-link p-0 text-body-secondary">Locations</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Hours</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Delivery</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-5 offset-md-1 mb-3">
+          <form>
+            <h5>Stay Updated</h5>
+            <p>Subscribe to our newsletter for the latest updates.</p>
+            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+              <label for="newsletter1" class="visually-hidden">Email address</label>
+              <input id="newsletter1" type="text" class="form-control" placeholder="Your Email Address"
+                fdprocessedid="28zkv">
+              <button class="btn btn-primary" type="button" fdprocessedid="kerga7" id="subs">Subscribe</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+        <p>© 2024 SavorSpectrum Restaurant. All rights reserved.</p>
+        <ul class="list-unstyled d-flex">
+          <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
+                <use xlink:href="#twitter"></use>
+              </svg></a></li>
+          <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
+                <use xlink:href="#instagram"></use>
+              </svg></a></li>
+          <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
+                <use xlink:href="#facebook"></use>
+              </svg></a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="script.js"></script>
+  <!-- <script src="menu.js"></script> -->
+
+  <script src="cart.js"></script>
+
+
+  <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+    integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+
+  <script>
+    gsap.to("#veggievibe", {
+      opacity: 1,
+      duration: 1,
+    });
+
+    // Define ScrollTrigger animations
+    gsap.registerPlugin(ScrollTrigger);
+
+    const cards = document.querySelectorAll(".card");
+
+    cards.forEach((card) => {
+      ScrollTrigger.create({
+        trigger: card,
+        start: "top 80%",
+        onEnter: () => card.classList.add("is-visible"),
+        onLeaveBack: () => card.classList.remove("is-visible"),
+      });
+    });
+  </script>
+</body>
+
+</html>

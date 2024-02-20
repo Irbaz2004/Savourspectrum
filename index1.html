@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style1.css" />
+  <link rel="stylesheet" href="cart.css">
+  <title>SavorSpectrum</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">SavorSpectrum</a>
+      <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <!-- <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li> -->
+          <li class="nav-item">
+            <div class="dropdown">
+              <a class="btn btn-transparent dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false" id="drop">
+                Menu
+              </a>
+
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="index1.html">Veg</a></li>
+                <li><a class="dropdown-item" href="index2.html">Non-Veg</a></li>
+                <li><a class="dropdown-item" href="index3.html">Fast food</a></li>
+                <li><a class="dropdown-item" href="index4.html">Desert&Sweets</a></li>
+                <li><a class="dropdown-item" href="index5.html">Drinks</a></li>
+                <!-- <li><a class="dropdown-item" href="index6.html">Offers</a></li> -->
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index6.html">Hotel&Rooms</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index7.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index8.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- end -->
+
+
+
+  <!-- start -->
+  <div class="vegmenu">
+    <h1 id="veggievibe">Our Special VeggieVibe</h1>
+    <div class="container-xxl">
+
+      <div id="menuItems">
+        <div class="row row-cols-1 row-cols-md-4 g-4" style="margin-top: 2%">
+          <div class="col">
+            <div class="card">
+              <img class="img"
+                src="https://img.freepik.com/free-photo/tortilla-wrap-with-falafel-fresh-salad-vegan-tacos-vegetarian-healthy-food_2829-14394.jpg?size=626&ext=jpg&ga=GA1.1.1567157820.1706799302&semt=sph"
+                class="card-img-top" alt="..." />
+
+              <div class="card-body">
+                <h5 class="card-title productname">Falafel</h5>
+                <p class="card-text">
+                  Falafels deep-fried balls traditionally in Middle Eastern
+                  cuisine.
+                </p>
+                <p class="card-text price">₹170</p>
+                <button type="button" class="btn btn-dark addtocart">Order now</button>
+                <button type="button" class="btn btn-dark addtocart v1">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img class="img"
+                src="https://img.freepik.com/free-photo/chicken-skewers-with-slices-apples-chili_2829-19992.jpg?size=626&ext=jpg&ga=GA1.1.1567157820.1706799302&semt=ais"
+                class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title productname">Paneer Tikka</h5>
+                <p class="card-text">
+                  It is a vegetarian alternative to chicken tikka and other meat
+                  dishes.
+                </p>
+                <p class="card-text price">₹210</p>
+                <button type="button" class="btn btn-dark addtocart">Order now</button>
+                <button type="button" class="btn btn-dark addtocart v2">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img class="img"
+                src="https://img.freepik.com/premium-photo/close-up-salad-bowl-table_1048944-14563364.jpg?size=626&ext=jpg&ga=GA1.1.1567157820.1706799302&semt=ais"
+                class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title productname">Vegetable Pad Thai</h5>
+                <p class="card-text">
+                  Made with stir-fried rice or shrimp and an assortment of
+                  vegetables.
+                </p>
+                <p class="card-text price">₹280</p>
+                <button type="button" class="btn btn-dark addtocart">Order now</button>
+                <button type="button" class="btn btn-dark addtocart v3">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img class="img"
+                src="https://img.freepik.com/free-photo/pie-with-meat_155003-356.jpg?size=626&ext=jpg&ga=GA1.1.1567157820.1706799302&semt=ais"
+                class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title productname">Vegetable Lasagna</h5>
+                <p class="card-text">
+                  Tender vegetables, and a light and tomato sauce, and lots of
+                  cheese.
+                </p>
+                <p class="card-text price">₹150</p>
+                <button type="button" class="btn btn-dark addtocart">Order now</button>
+                <button type="button" class="btn btn-dark addtocart v4">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- end -->
+
+
+    <!-- start -->
+    <h1 id="veggievibe" class="h1">International Flavors</h1>
+    <div class="container-xxl">
+      <div id="menuItems1">
+
+        <div class="row row-cols-1 row-cols-md-4 g-4" style="margin-top: 2%">
+          <div class="col">
+            <div class="card">
+              <img class="img"
+                src="https://img.freepik.com/premium-photo/indian-vegetable-pulav-biryani-made-using-basmati-rice-served-terracotta-bowl-selective-focus_466689-55573.jpg?size=626&ext=jpg&ga=GA1.1.1567157820.1706799302&semt=ais"
+                class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title productname">Vegetable Biryani</h5>
+                <p class="card-text">
+                  vegetable biryani can be made in a Instant pot or pressure
+                  cooker.
+                </p>
+                <p class="card-text price">₹199</p>
+                <button type="button" class="btn btn-dark addtocart">Order now</button>
+                <button type="button" class="btn btn-dark addtocart v5">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img class="img"
+                src="https://img.freepik.com/free-photo/roll-traditional-closeup-delicacy-black_1203-4939.jpg?size=626&ext=jpg&ga=GA1.1.1567157820.1706799302&semt=ais"
+                class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title productname">Vegetable Sushi Rolls</h5>
+                <p class="card-text">
+                  sushi roll has an outside layer of sesame seeds, a layer of
+                  seasoned.
+                </p>
+                <p class="card-text price">₹320</p>
+                <button type="button" class="btn btn-dark addtocart">Order now</button>
+                <button type="button" class="btn btn-dark addtocart">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img class="img"
+                src="https://img.freepik.com/free-photo/greek-salad-with-fresh-vegetables-feta-cheese-kalamata-olives_2829-10848.jpg?size=626&ext=jpg&ga=GA1.1.1567157820.1706799302&semt=ais"
+                class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title productname">Greek Salad</h5>
+                <p class="card-text">
+                  refreshing & delicious! Made with cucumber, tomatoes,
+                  and olives...
+                </p>
+                <p class="card-text price">₹130</p>
+                <button type="button" class="btn btn-dark addtocart">Order now</button>
+                <button type="button" class="btn btn-dark addtocart">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img class="img"
+                src="https://img.freepik.com/premium-photo/traditional-italian-caprese-salad-with-sliced-tomatoes-mozzarella-basil-pesto-sauce-spice-dark-gray-concrete-background-top-view_342644-727.jpg?size=626&ext=jpg&ga=GA1.1.1567157820.1706799302&semt=ais"
+                class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title productname">Caprese Salad</h5>
+                <p class="card-text">
+                  With fresh mozzarella, juicy tomatoes & fresh basil.
+                </p>
+                <p class="card-text price">₹145</p>
+                <button type="button" class="btn btn-dark addtocart">Order now</button>
+                <button type="button" class="btn btn-dark addtocart">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end -->
+
+
+
+
+    <!-- start -->
+    <h1 id="veggievibe" class="h1">Stir-Fried Vegetables</h1>
+    <div class="container-xxl">
+      <div id="menuItems2">
+
+        <div class="row row-cols-1 row-cols-md-4 g-4" style="margin-top: 2%">
+          <div class="col">
+            <div class="card">
+              <img class="img"
+                src="https://img.freepik.com/free-photo/front-view-chicken-salad-with-vegetables-light-surface_140725-74867.jpg?size=626&ext=jpg&ga=GA1.1.1567157820.1706799302&semt=ais"
+                class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title productname">Vegetable Stir-Fry</h5>
+                <p class="card-text">
+                  the best homemade sweet savory stir fry sauce garlic
+                  and ginger.
+                </p>
+                <p class="card-text price">₹135</p>
+                <button type="button" class="btn btn-dark addtocart">Order now</button>
+                <button type="button" class="btn btn-dark addtocart">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img class="img"
+                src="https://img.freepik.com/premium-photo/schezwan-noodles-vegetable-hakka-noodles-chow-mein-is-popular-indo-chinese-recipes-served-bowl-plate-with-wooden-chopsticks-selective-focus_466689-33223.jpg?size=626&ext=jpg&ga=GA1.1.1567157820.1706799302&semt=ais"
+                class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title productname">Vegetable Chow Mein</h5>
+                <p class="card-text">
+                  vegetables in different textures with a rich sauce that's very
+                  fragrant.
+                </p>
+                <p class="card-text price">₹189</p>
+                <button type="button" class="btn btn-dark addtocart">Order now</button>
+                <button type="button" class="btn btn-dark addtocart">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img class="img"
+                src="https://img.freepik.com/free-photo/fried-noodle-with-pork-soy-sauce-vegetable_1150-27394.jpg?size=626&ext=jpg&ga=GA1.1.1567157820.1706799302&semt=ais"
+                class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title productname">Pad Thai with Tofu</h5>
+                <p class="card-text">
+                  A hearty, versatile, plant-based dish tons of protein, and big
+                  flavor.
+                </p>
+                <p class="card-text price">₹229</p>
+                <button type="button" class="btn btn-dark addtocart">Order now</button>
+                <button type="button" class="btn btn-dark addtocart">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img class="img"
+                src="https://img.freepik.com/premium-photo/indian-style-broccoli-aloo-poriyal-south-indian-broccoli-potato-stir-fry-vegetable-recipe_1093310-790.jpg?size=626&ext=jpg&ga=GA1.1.1567157820.1706799302&semt=ais"
+                class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title productname">Szechuan Vegetables</h5>
+                <p class="card-text">
+                  veggies (fresh or frozen) with rice. Noodles, Veggies, and
+                  Sauce.
+                </p>
+                <p class="card-text price">₹115</p>
+                <button type="button" class="btn btn-dark addtocart">Order now</button>
+                <button type="button" class="btn btn-dark addtocart">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- end -->
+
+
+
+
+
+    <!-- start -->
+    <h1 id="veggievibe" class="h1">Baked or Grilled Dishes</h1>
+    <div class="container-xxl">
+      <div id="menuItems3">
+
+        <div class="row row-cols-1 row-cols-md-4 g-4" style="margin-top: 2%">
+          <div class="col">
+            <div class="card">
+              <img class="img"
+                src="https://img.freepik.com/free-photo/meat-dish-with-vegetables_144627-18109.jpg?size=626&ext=jpg&ga=GA1.1.1567157820.1706799302&semt=ais"
+                class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title productname">Vegetable Korma</h5>
+                <p class="card-text">
+                  south Indian hotel style to pair with chapathi, puri, parotta
+                  even rice.
+                </p>
+                <p class="card-text price">₹270</p>
+                <button type="button" class="btn btn-dark addtocart">Order now</button>
+                <button type="button" class="btn btn-dark addtocart">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img class="img"
+                src="https://img.freepik.com/free-photo/top-view-cooked-bell-peppers-with-ground-meat-grey-surface-food-beef-dolma-vegetables-meal_140725-74595.jpg?size=626&ext=jpg&ga=GA1.1.1567157820.1706799302&semt=ais"
+                class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title productname">Stuffed Bell Peppers</h5>
+                <p class="card-text">
+                  classic comfort food that's hearty, filling, has incredible
+                  flavors.
+                </p>
+                <p class="card-text price">₹235</p>
+                <button type="button" class="btn btn-dark addtocart">Order now</button>
+                <button type="button" class="btn btn-dark addtocart">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img class="img"
+                src="https://img.freepik.com/premium-photo/lemon-khachapuri-imeretian-delight-side-view-from-office_976492-9902.jpg?size=626&ext=jpg&ga=GA1.1.1567157820.1706799302&semt=sph"
+                class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title productname">Spanakopita</h5>
+                <p class="card-text">
+                  savory Greek pie made of perfectly crispy layers of phyllo
+                  dough....
+                </p>
+                <p class="card-text price">₹265</p>
+                <button type="button" class="btn btn-dark addtocart">Order now</button>
+                <button type="button" class="btn btn-dark addtocart">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img class="img"
+                src="https://img.freepik.com/free-photo/eggplant-grilled-with-balsamic-sauce-garlic-cilantro-mint-vegan-food-grilled-aubergine_2829-7067.jpg?size=626&ext=jpg&ga=GA1.1.1567157820.1706799302&semt=ais"
+                class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title productname">Eggplant Parmesan</h5>
+                <p class="card-text">
+                  Crispy breaded eggplant is layered with marinara & mozzarella
+                  cheese.
+                </p>
+                <p class="card-text price">₹120</p>
+                <button type="button" class="btn btn-dark addtocart">Order now</button>
+                <button type="button" class="btn btn-dark addtocart">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end -->
+
+
+    <div class="cart-container container" style="background-color: black;">
+      <h2 style="color: rgb(255, 255, 255); font-weight: bold; font-family: Pacifico, cursive;">Cart</h2>
+      <table>
+        <thead>
+          <tr>
+            <th><strong style="color: white;">Product</strong></th>
+            <th><strong style="color: white;">Price</strong></th>
+          </tr>
+        </thead>
+        <tbody id="carttable" style="color: white;">
+        </tbody>
+      </table>
+      <hr>
+      <div style="color: white; margin-bottom: 10px;">
+        <label for="deliveryAddress" style="font-weight: bold;">Delivery Address:</label>
+        <input type="text" id="deliveryAddress" placeholder="Enter delivery address"
+          style="color: black;  border: none; padding: 5px;">
+      </div>
+      <div style="color: white; margin-bottom: 10px;">
+        <label for="paymentMethod" style="font-weight: bold;">Payment Method:</label>
+        <select id="paymentMethod" style="color: black; border-radius: 8px; border: none; padding: 5px;">
+          <option value="creditCard">Credit Card</option>
+          <option value="paypal">PayPal</option>
+          <option value="bankTransfer">Bank Transfer</option>
+          <option value="bankTransfer">Cash on delivery</option>
+
+        </select>
+      </div>
+      <table id="carttotals">
+        <tr>
+          <td><strong style="color: rgb(255, 255, 255);">Items</strong></td>
+          <td><strong style="color: rgb(255, 255, 255);">Total</strong></td>
+        </tr>
+        <tr>
+          <td style="color: white;">x <span id="itemsquantity" style="color: white;">0</span></td>
+          <td style="color: white;">₹<span id="total" style="color: white;">0</span></td>
+        </tr>
+      </table>
+
+      <div class="cart-buttons">
+        <button id="emptycart"
+          style="background-color: white;color: black;border-radius: 8px; border: none; font-weight: bold; font-family: Pacifico, cursive;">Empty
+          Cart</button>
+        <button id="checkout"
+          style="background-color: white;color: black; border-radius: 8px; border: none; font-weight: bold; font-family: Pacifico, cursive;">Checkout</button>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="container">
+      <footer class="py-5">
+        <div class="row">
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Explore</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-body-secondary">Home</a></li>
+              <li class="nav-item mb-2"><a href="index1.html" class="nav-link p-0 text-body-secondary">Menu</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Reservations</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Events</a></li>
+              <li class="nav-item mb-2"><a href="index8.html" class="nav-link p-0 text-body-secondary">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Discover</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Our Story</a></li>
+              <li class="nav-item mb-2"><a href="index7.html" class="nav-link p-0 text-body-secondary">Gallery</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Specials</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Reviews</a></li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Visit</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="index8.html" class="nav-link p-0 text-body-secondary">Locations</a>
+              </li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Hours</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Delivery</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-5 offset-md-1 mb-3">
+            <form>
+              <h5>Stay Updated</h5>
+              <p>Subscribe to our newsletter for the latest updates.</p>
+              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden">Email address</label>
+                <input id="newsletter1" type="text" class="form-control" placeholder="Your Email Address"
+                  fdprocessedid="28zkv">
+                <button class="btn btn-primary" type="button" fdprocessedid="kerga7" id="subs">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+          <p>© 2024 SavorSpectrum Restaurant. All rights reserved.</p>
+          <ul class="list-unstyled d-flex">
+            <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
+                  <use xlink:href="#twitter"></use>
+                </svg></a></li>
+            <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
+                  <use xlink:href="#instagram"></use>
+                </svg></a></li>
+            <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
+                  <use xlink:href="#facebook"></use>
+                </svg></a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+    <script src="cart.js"></script>
+
+
+
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+
+</body>
+
+</html>
